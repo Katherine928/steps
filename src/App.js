@@ -16,7 +16,7 @@ function App() {
     if (step < 3) setStep(step + 1);
   }
   return (
-    <div>
+    <>
       <button className="close" onClick={() => setIsOpen(!isOpen)}>
         &times;
       </button>
@@ -48,7 +48,7 @@ function App() {
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 }
 
